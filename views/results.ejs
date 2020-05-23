@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/icon.jpg">
+	<title>Find Your Super Hero | Marvel HQ </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1x">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/results.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark sticky-top mt-2">
+		<div class="container">
+			<a class="navbar-brand pl-2" href="#">SUPERHERO</a>
+			<button class="navbar-toggler" id="nav_btn"type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item px-3">
+					<a class="nav-link " href="#">Home</a>
+				</li>
+				<li class="nav-item px-3">
+					<a class="nav-link " href="#">About</a>
+				</li>
+				<li class="nav-item px-3">
+					<a class="nav-link " href="#">Sign up</a>
+				</li>
+				<li class="nav-item px-3">
+					<a class="nav-link " href="#">Login</a>
+				</li>
+			</ul>
+		</div>
+		</div>
+    </nav><br>
+
+<section class="header">
+    <h4 class="card-title text-center container"> </h5>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-12">
+                <div class="card text-center">
+                    <div class="card-header">header</div>
+                    <div class="card-body"> 
+                        <li> #<span class="id"></span></li>
+                    </div>
+                    <div class="card-footer"><a href="#">Footer</a></div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12 card-second">
+                <div class="card text-center">
+                    <div class="card-header"><span class="id"><%= data.name %></span></div>
+                    <div class="card-body"> 
+                        <img src="<%= data.image.url %>" class="poster"> 
+                    </div>
+                    <div class="card-footer"><a href="#">Footer</a> </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-12">
+                <div class="card text-center">
+                    <div class="card-header">header</div>
+                    <div class="card-body"> 
+                        <li> #<span class="id"></span></li>
+                    </div>
+                    <div class="card-footer"><a href="#">Footer</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</section>
+
+
+
+
+
+
+
+<div class="text-center">
+    <a href="/"> Search again </a>
+</div>
+
+</body>
+</html>

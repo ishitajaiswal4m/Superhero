@@ -1,0 +1,129 @@
+a{
+    text-decoration: none;
+}
+body {
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+a:hover{
+    text-decoration: none;
+    color:rgb(36, 33, 33)
+}
+li{
+    list-style: none;
+}
+#nav_btn{
+    background color: red;
+}
+.navbar-brand{
+    color:black!important;
+    width:154px;
+    float:left;
+    border:1px solid rgba(0,0,0,0.8);
+    border-radius: 8px;
+    background-color: hsl(46, 98%, 53%);
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    
+ 
+}
+.navbar-brand:hover{
+    color: hsl(46, 98%, 53%)!important;
+    background-color: black!important;
+}
+.navbar{
+    background-color:rgba(0,0,0);
+  
+}
+.nav-link{
+    color:white;
+    width:auto;
+
+}
+.nav-link:hover{
+    font-weight: bold;
+    color:rgb(26, 24, 24);
+    box-shadow: 0 3px 5px grey
+
+}
+h4{
+    color:#01b4e1;
+    font-family: 'Lato', sans-serif;
+}
+.back_btn{
+    text-align: center;
+    
+}
+.header{
+    width:100%;
+    height:100vh;
+    padding:50px;
+    position:relative;
+}
+.header::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: linear-gradient(160deg,rgb(24, 23, 23) 55%, black 0%);
+    z-index: -1;
+}
+.id{
+    font-size:40px;
+    line-height: 1;
+    color:#01b4e1;
+}
+.card{
+    margin-top: 30px;
+    transition:0.4s ease;
+}
+.card-header{
+    font-size:1.6rem;
+    font-weight:bold;
+    background: white;
+    padding:25px 9!important;
+}
+.card-body{
+    padding:30px 0px!important;
+
+}
+.card-footer{
+    padding:30px 0px!important;
+    background-color: white;;
+}
+.card-footer a{
+    border:1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline:none;
+    color:#50d1c0;
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+.card-footer a:hover{
+    color:white;
+    background-color: #50d1c0;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.card:hover{
+    transform:translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(252, 237, 237, 0.3);
+}
+.card:hover .card-header,.card:hover .id{
+    color:#50d1c0;
+}
+.card-second{
+    transform:translateY(-20px);
+
+}
+.poster{
+    height:250px;
+    width:350px;
+}
